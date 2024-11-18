@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal With Recipe</title>
+  <link rel="stylesheet" href="sle.css">
+  <link rel="stylesheet" href="styles.css">
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+</head>
+<body>
+  <div class="container">
+    <div class="meal-wrapper">
+      <h2 class="title">Find Meals For Recipe</h2>
+      <div class="meal-search-box">
+        <input type="text" class="search-control" placeholder="Enter Your Favourite Dish" id="search-input" />
+        <button type="submit" class="search-btn" id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+
+      <div class="meal-result">
+        <h2 class="title">Your Search Results:</h2>
+        <div id="meal"></div>
+        <footer>
+        <div class="marquee">
+            <p>I am Creating a  MealApp with Recipe related Video Using JavaScript with Fetch API </p>
+        </div>
+        <div class="footer-content">
+            <p>&copy; 2024 Meal App. All rights reserved.</p>
+            
+            <ul class="footer-links">
+                <li>Developed by Vikash Kumar❇️❇️</li>
+            </ul>
+        </div>
+    </footer>
+      </div>
+
+      <div class="meal-details">
+        <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="meal-details-content"></div>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
